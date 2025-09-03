@@ -6,4 +6,4 @@ dependencies:
   - pip:
     - numpy
     - pandas
-    - sklearn
+    - scikit-learn
