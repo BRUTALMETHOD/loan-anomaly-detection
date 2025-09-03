@@ -6,7 +6,7 @@ Ensure conda installed - https://docs.conda.io/projects/conda/en/latest/user-gui
 git clone loan-anomaly-detection
 cd loan-anomaly-detection
 conda env create -f environment.yml
-conda activate loan-anomaly-detection
+conda activate loan-anomaly-detection ## OR conda activate "$(basename "$PWD")"
 ```
 
 # Usage
