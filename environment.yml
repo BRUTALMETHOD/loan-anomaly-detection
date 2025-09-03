@@ -1,0 +1,9 @@
+name: loan-anomaly-detection
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip:
+    - numpy
+    - pandas
+    - sklearn
